@@ -1,8 +1,8 @@
 function creatGame(player1, hour, player2) {
   return ` <li>
-              <img src="../Projeto NLW_Copa/assets/${player1}.svg" alt="Brazil" />
+              <img src="./Projeto NLW_Copa/assets/${player1}.svg" alt="Brazil" />
               <strong>${hour}</strong>
-              <img src="../Projeto NLW_Copa/assets/${player2}.svg" alt="Serbia" />
+              <img src="./Projeto NLW_Copa/assets/${player2}.svg" alt="Serbia" />
             </li>
   `
 }
